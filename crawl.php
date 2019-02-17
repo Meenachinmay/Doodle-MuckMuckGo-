@@ -1,5 +1,6 @@
 <?php
 
+// make the maximum execution time to infinte so we can get as many as links to store in database
 ini_set('max_execution_time', 0);
 
 include("config.php");
@@ -192,6 +193,6 @@ function followLinks($url) {
 
 }
 
-    $startUrl = "https://dai.co.jp/";
+    $startUrl = "<place here site link from where to want to get links to the database>";
 followLinks($startUrl);
 ?>
