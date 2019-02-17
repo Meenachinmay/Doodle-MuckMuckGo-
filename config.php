@@ -3,7 +3,7 @@ ob_start();
 
 try {
 
-	$con = new PDO("mysql:dbname=muckmuckgo;host=localhost", "root", "");
+	$con = new PDO("mysql:dbname=<type your database name here>;host=localhost", "root", "");
 	$con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
 }
 catch(PDOExeption $e) {
